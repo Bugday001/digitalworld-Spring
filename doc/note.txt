@@ -1,0 +1,33 @@
+https://gitee.com/coursetju
+https://gitee.com/organizations/coursetju/projects
+https://e.gitee.com/tongjiedu/projects/199605/repos  (git repositor list in project course)
+
+C/C++ based digital world simulator mimic the real world.
+https://gitee.com/coursetju/iw-digitalworld-cpp
+https://gitee.com/coursetju/iw-digitalworld-cpp.git
+
+Java based digital world simulator mimic the real world.
+https://gitee.com/tongjiedu/iw-digitalworld-java
+https://gitee.com/tongjiedu/iw-digitalworld-java.git
+
+worldviewer for digital world using html/js
+https://gitee.com/coursetju/iw-worldviewer-html
+https://gitee.com/coursetju/iw-worldviewer-html.git
+
+worldviewer for digital world using c#
+https://gitee.com/coursetju/iw-worldviewer-cs
+https://gitee.com/coursetju/iw-worldviewer-cs.git
+
+vehicle/robotaxi simulator based on matlab
+https://gitee.com/coursetju/iw-robotaxi-matlab
+https://gitee.com/coursetju/iw-robotaxi-matlab.git
+
+vehicle/robotaxi simulator containing networking, sensing and control based on android platform
+https://gitee.com/coursetju/iw-robotaxi-nsc
+https://gitee.com/coursetju/iw-robotaxi-nsc.git
+
+
+an old version
+https://gitee.com/coursetju/intelliworld-workstation
+
+https://gitee.com/openm2x/openwsn.workstation/tree/master/sensorsimu

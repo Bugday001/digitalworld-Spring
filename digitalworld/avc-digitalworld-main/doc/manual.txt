@@ -1,0 +1,15 @@
+
+ver 0.1.0 
+============================================
+You can open this project with IntelliJ directly.
+
+After start the application, visit the following URL in the browser:
+
+	http://localhost:8080/greeting
+
+And you'll see the following output in the browser(which is returned by the java application):
+
+	{"id":1,"content":"Hello, World!"}
+
+This is a JSON format string and you can capture it with JavaScript and convert the string to a JavaScript object and then access its properties and values more easily.
+

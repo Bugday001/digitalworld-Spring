@@ -1,0 +1,17 @@
+git config --global user.name "your user name"
+git config --global user.email "your email (not neccessary)"
+创建 git 仓库:
+
+mkdir iw-digitalworld-java
+cd iw-digitalworld-java
+git init 
+touch README.md
+git add README.md
+git commit -m "first commit"
+git remote add origin https://gitee.com/coursetju/iw-digitalworld-java.git
+git push -u origin "master"
+已有仓库?
+
+cd existing_git_repo
+git remote add origin https://gitee.com/coursetju/iw-digitalworld-java.git
+git push -u origin "master"
