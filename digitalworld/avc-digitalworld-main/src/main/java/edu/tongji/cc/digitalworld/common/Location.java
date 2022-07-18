@@ -1,5 +1,12 @@
 package edu.tongji.cc.digitalworld.common;
 
+/**
+ * An utility class to save mathematical location data in 2D/3D space. Which is
+ * intensively used in the application.
+ *
+ * @author ZhangWei(Dept. of Control, TongJi University)
+ * - First version.
+ */
 public class Location {
 
     private int[] _value = new int[3];

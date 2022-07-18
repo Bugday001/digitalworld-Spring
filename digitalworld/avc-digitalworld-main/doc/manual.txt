@@ -1,7 +1,12 @@
 
 ver 0.1.0 
 ============================================
-You can open this project with IntelliJ directly.
+You can open this project with IntelliJ and run the module "avc-digitalworld-main" in IntelliJ.
+
+You can also package the module (there's a maven toolbox in IntelliJ and click the package command). You can find a jar file in the target folder. Open a console windows and run the following command:
+
+cd C:\Dev\course\source\iw-digitalworld-java\digitalworld\avc-digitalworld-main
+java -jar ./target/avc-digitalworld-main-0.0.1-SNAPSHOT.jar 
 
 After start the application, visit the following URL in the browser:
 

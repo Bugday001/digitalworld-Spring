@@ -9,6 +9,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * World service, which is essentially the simulation engine.
+ * @author ZhangWei(Dept. of Control, TongJi University)
+ * - First version.
+ */
 public class WorldService {
 
     private MapService _map;

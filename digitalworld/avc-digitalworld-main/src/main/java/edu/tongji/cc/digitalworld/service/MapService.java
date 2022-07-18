@@ -6,6 +6,12 @@ import edu.tongji.cc.digitalworld.entity.Map;
 
 import java.util.List;
 
+/**
+ * Map management.
+ *
+ * @author ZhangWei(Dept. of Control, TongJi University)
+ * - First version.
+ */
 public class MapService {
     public static final int MAP_WIDTH = 50;
     public static final int MAP_HEIGHT = 50;

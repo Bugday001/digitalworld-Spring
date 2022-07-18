@@ -6,6 +6,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * World = Map + Agents
+ *
+ * @author ZhangWei(Dept. of Control, TongJi University)
+ * - First version.
+ */
 public class World {
 
     private Map _map;

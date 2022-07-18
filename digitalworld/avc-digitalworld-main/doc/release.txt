@@ -10,6 +10,8 @@ http://localhost:8080/api/logstream/search?date=2028-09-09
 http://localhost:8080/api/agent/
 http://localhost:8080/api/agent/0/
 
+- Test IntelliJ maven package and can use "java -jar <jarfile>" to run the jar successfully.
+
 ver 0.1.0
 modified by zhangwei on 2022.07.17
 

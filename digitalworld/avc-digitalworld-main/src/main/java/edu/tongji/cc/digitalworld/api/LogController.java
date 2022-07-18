@@ -14,6 +14,13 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Log stream access.
+ * Also demonstrate the date type variable transmission in restful API.
+ *
+ * @author ZhangWei(Dept. of Control, TongJi University)
+ * - First version.
+ */
 @RestController
 @RequestMapping(value="/api/logstream/")
 public class LogController {

@@ -7,6 +7,12 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import java.util.List;
 
+/**
+ * Restful interface for RoboTaxi service。
+ *
+ * @author ZhangWei(Dept. of Control, TongJi University)
+ * - First version.
+ */
 @RestController
 @RequestMapping(value="/api/agent/")
 public class RoboTaxiController {

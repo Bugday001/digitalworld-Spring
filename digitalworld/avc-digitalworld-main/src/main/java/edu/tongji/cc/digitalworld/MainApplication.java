@@ -3,6 +3,13 @@ package edu.tongji.cc.digitalworld;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * Main Application class.
+ * This is the entrance of the whole application.
+ *
+ * @author ZhangWei(Dept. of Control, TongJi University)
+ * - First version.
+ */
 @SpringBootApplication
 public class MainApplication {
 

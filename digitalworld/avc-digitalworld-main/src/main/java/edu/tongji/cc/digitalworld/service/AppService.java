@@ -2,6 +2,11 @@ package edu.tongji.cc.digitalworld.service;
 
 import org.springframework.stereotype.Service;
 
+/**
+ * Main application service.
+ * @author ZhangWei(Dept. of Control, TongJi University)
+ * - First version.
+ */
 @Service("avc")
 public class AppService {
 

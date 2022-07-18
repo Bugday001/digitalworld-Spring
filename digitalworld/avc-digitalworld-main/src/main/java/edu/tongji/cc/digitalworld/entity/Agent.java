@@ -2,6 +2,14 @@ package edu.tongji.cc.digitalworld.entity;
 
 import edu.tongji.cc.digitalworld.common.Location;
 
+/**
+ * The base class for all kinds of Agent.
+ *
+ * TODO: In the future, we'll introduce interface IiAgent.
+ *
+ * @author ZhangWei(Dept. of Control, TongJi University)
+ * - First version.
+ */
 public class Agent {
 
     private int _id;

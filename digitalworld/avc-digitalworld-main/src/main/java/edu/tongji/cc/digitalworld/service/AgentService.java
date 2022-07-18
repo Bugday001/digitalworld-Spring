@@ -12,6 +12,9 @@ import java.util.Random;
 /**
  * AgentService manages all the agents in the application, including CRUD operations
  * and other helpful methods.
+ *
+ * @author ZhangWei(Dept. of Control, TongJi University)
+ * - First version.
  */
 public class AgentService {
 
