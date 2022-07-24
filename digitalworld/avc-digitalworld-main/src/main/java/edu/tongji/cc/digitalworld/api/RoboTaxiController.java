@@ -14,7 +14,7 @@ import java.util.List;
  * - First version.
  */
 @RestController
-@RequestMapping(value="/api/agent/")
+@RequestMapping(value="/api/agent")
 public class RoboTaxiController {
 
     @Resource(name="avc")
@@ -31,7 +31,7 @@ public class RoboTaxiController {
         return avc.agents().find();
     }
 
-    @GetMapping("{id}")
+    @GetMapping("/{id}")
     public Agent get(@PathVariable(value = "id") Integer id)
     {
         return avc.agents().get(id);
