@@ -9,3 +9,7 @@ Building a RESTful Web Service, https://spring.io/guides/gs/rest-service/#initia
 Test with the following URL:
 http://localhost:8080/greeting
 http://localhost:8080/greeting?name=User
+
+启动：`mvn spring-boot:run`
+编译：`mvn compile`
+clean：`mvn clean`
