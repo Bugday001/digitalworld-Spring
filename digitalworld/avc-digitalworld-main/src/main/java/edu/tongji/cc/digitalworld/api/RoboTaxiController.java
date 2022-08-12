@@ -4,8 +4,9 @@ import edu.tongji.cc.digitalworld.entity.Agent;
 import edu.tongji.cc.digitalworld.service.AppService;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.Resource;
 import java.util.List;
+
+import javax.annotation.Resource;
 
 /**
  * Restful interface for RoboTaxi service。
@@ -14,6 +15,7 @@ import java.util.List;
  * - First version.
  */
 @RestController
+@CrossOrigin
 @RequestMapping(value="/api/agent")
 public class RoboTaxiController {
 
@@ -26,8 +28,11 @@ public class RoboTaxiController {
     }
 
     @GetMapping("")
-    public List<Agent> find(@RequestParam(value = "criteria", defaultValue = "") String criteria)
+    public List<Agent> find(@RequestParam(value = "cmd", defaultValue = "") String command)
     {
+        if(command == "all"){
+            return avc.agents().find();
+        }
         return avc.agents().find();
     }
 

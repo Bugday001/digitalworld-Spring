@@ -27,6 +27,7 @@ public class AgentService {
         {
             Agent agent = new RoboTaxi();
             agent.setLocation(new Location(rnd.nextInt(MapService.MAP_WIDTH),rnd.nextInt(MapService.MAP_HEIGHT)));
+            agent.setId(i);
             _agentlist.add(agent);
         }
     }

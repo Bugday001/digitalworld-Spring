@@ -14,6 +14,15 @@ public class Map {
     public Map(int width, int height)
     {
         cell = new short[width][height];
+        /* random */
+        for(int i=0;i<width;i++){
+            for(int j=0;j<height;j++){
+                cell[i][j] = 0;
+                if(Math.random()>0.7){
+                    cell[i][j] = 1;
+                }
+            }
+        }
     }
 
     public short[][] cell()
