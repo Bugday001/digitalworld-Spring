@@ -16,12 +16,13 @@ public class MapService {
     public static final int MAP_WIDTH = 50;
     public static final int MAP_HEIGHT = 50;
 
-    private short[][] cell = new short[MAP_WIDTH][MAP_HEIGHT];
+    private Map map;
     AgentService _agents;
 
     public MapService(AgentService agents)
     {
         this._agents = agents;
+        map = new Map(MAP_WIDTH, MAP_HEIGHT);
     }
 
     public Map subMap(Location loc1, Location loc2)
@@ -36,5 +37,10 @@ public class MapService {
     public void randomize()
     {
 
+    }
+
+    public Map getMap()
+    {
+        return map;
     }
 }

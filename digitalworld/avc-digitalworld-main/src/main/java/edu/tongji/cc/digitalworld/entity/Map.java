@@ -17,8 +17,10 @@ public class Map {
         /* random */
         for(int i=0;i<width;i++){
             for(int j=0;j<height;j++){
-                cell[i][j] = 0;
-                if(Math.random()>0.7){
+                if(Math.random()<0.7 || (i>=40 && j>=40)){
+                    cell[i][j] = 0;
+                }
+                else{
                     cell[i][j] = 1;
                 }
             }

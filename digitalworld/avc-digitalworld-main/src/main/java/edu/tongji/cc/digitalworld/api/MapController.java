@@ -25,11 +25,9 @@ public class MapController {
     public short[][] find(@RequestParam(value = "criteria", defaultValue = "") String command)
     {
         if(command == "all"){
-            Map tempMap = new Map(50, 50);
-            return tempMap.cell();
+            return avc.map().getMap().cell();
         }
-        Map tempMap = new Map(50, 50);
-        return tempMap.cell();
+        return avc.map().getMap().cell();
     }
 
 }

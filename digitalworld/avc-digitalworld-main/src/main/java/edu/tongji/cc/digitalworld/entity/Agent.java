@@ -14,7 +14,7 @@ public class Agent {
 
     private int _id;
     private Location _location = new Location();
-
+    private Location _goalPoint = new Location(40, 40);
     public Agent()
     {
 
@@ -28,6 +28,16 @@ public class Agent {
     public void setId(int id)
     {
         this._id = id;
+    }
+
+    public void setGoalPoint(Location loc)
+    {
+        this._goalPoint.assignfrom(loc);
+    }
+
+    public Location getGoalPoint()
+    {
+        return this._goalPoint;
     }
 
     public void setLocation(Location loc)

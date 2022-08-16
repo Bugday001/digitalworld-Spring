@@ -13,13 +13,16 @@ public class Location {
 
     public Location()
     {
-
+        this._value[0] = 0;
+        this._value[1] = 0;
+        this._value[2] = 0;
     }
 
     public Location(int x, int y)
     {
         this._value[0] = x;
         this._value[1] = y;
+        this._value[2] = 0;
     }
 
     public Location(int x, int y, int z)
