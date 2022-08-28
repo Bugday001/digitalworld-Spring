@@ -29,7 +29,7 @@ async def main_logic(websocket, path):
     await recv_msg(websocket)
 
 # 把ip换成自己本地的ip
-start_server = websockets.serve(main_logic, '192.168.71.184', 5678)
+start_server = websockets.serve(main_logic, "localhost", 8080)
 # 如果要给被回调的main_logic传递自定义参数，可使用以下形式
 # 一、修改回调形式
 # import functools
