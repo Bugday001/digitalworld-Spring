@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 @Service("avc")
 public class AppService {
 
-    private WorldService world = new WorldService();
-    private LogService logservice = new LogService();
-    private WorldService worldservice = new WorldService();
+    private static WorldService world = new WorldService();
+    private static LogService logservice = new LogService();
+    private static WorldService worldservice = new WorldService();
 
     public AppService()
     {

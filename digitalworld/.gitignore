@@ -16,3 +16,14 @@ dependency-reduced-pom.xml
 README.html
 *.iml
 .idea
+aopalliance
+asm
+ch
+com
+commons-codec
+commons-io
+io
+jakarta
+javax
+net
+orgs
