@@ -1,5 +1,5 @@
 # Spring Project
-学校综设C课程，借以学习Spring与Java。
+*后端部分，采用Spring实现。*
 
 ## 运行
 **`cd .\digitalworld\avc-digitalworld-main\`后才可执行以下命令**
@@ -7,8 +7,10 @@
 编译：`mvn compile`
 clean：`mvn clean`
 
-## 
-websocket
+## Communication
+- [X] Http
+- [X] WebSocket
+- [X] UDP
 
 ## environment(recommend)
 ```
