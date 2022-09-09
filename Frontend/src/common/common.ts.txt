@@ -1,0 +1,21 @@
+// Utility methods
+//
+// author zhangwei on 2022.07.18
+// - First version
+// modified by xxxx on 2022.07.xx
+// - (Add your own major modifications here as developing history)
+
+// Usage:
+//  const [err, data] = await awaithandler(fetchData())
+//  console.log('err', err)
+//  console.log('data', data)
+//
+// Reference
+// - async/await的错误处理方法总结与优化, 
+//   https://blog.csdn.net/q3254421/article/details/88878288
+//
+function awaithandler<T, U = any>(promise: Promise<T>): Promise<[U | null, T | null]> {
+    return promise
+     .then<[T, null]>((data: T) => [data, null])
+     .catch<[null, U]>(err => [null,err])
+   }

@@ -1,0 +1,130 @@
+Introduction
+===========================
+本工程基于vite生成，作为启动前端开发的第一次工程。未对vite生成的工程做任何代码修改，只是实际运行之以验证其有效性。
+
+https://github.com/vitejs/vite
+https://vitejs.dev/guide/
+https://cn.vitejs.dev/
+https://cn.vitejs.dev/guide/
+
+Guide
+===========================
+
+步骤
+
+1
+打开vite guide文档，https://vitejs.dev/guide/
+假设已经安装好 node.js 
+
+2
+In the console window
+
+c:
+cd \dev\course\source\iw-worldviewer-html
+
+Strongly suggest to upgrade your npm package management tool to its latest version:
+
+npm -g install npm@latest
+npm -g install npm@<version>
+npm -g install npm
+
+npm -save install axios
+
+The latest version improves the package downloading speed.
+
+
+3
+switch npm to native source by using the following command
+
+npm config set registry https://registry.npm.taobao.org
+npm config get registry
+
+If you don't do the above configuration, your building process may be slow.
+
+4 
+With NPM:
+$ npm create vite@latest
+
+With Yarn:
+$ yarn create vite
+
+并做如下设置
+Project Name: worldviewer
+framework:vue
+variant: vue(For current learning purpose, we donot use vue-ts. But if you'd like ts, you can use it)
+
+After finished, use the following to run:
+  cd worldviewer
+  npm install  (install all dependencies)
+  npm run dev
+
+And finally, you may see similar messages like the following:
+
+\dev\course\source\iw-worldviewer-html\worldviewer>npm create vite@latest
+npx: installed 6 in 29.017s
+√ Project name: ... worldviewer
+√ Select a framework: » vue
+√ Select a variant: » vue
+
+Scaffolding project in c:\dev\course\source\iw-worldviewer-html\worldviewer...
+
+Done. 
+
+
+3 Now run:
+
+  cd worldviewer
+or
+  cd \dev\course\source\iw-worldviewer-html\worldviewer
+
+  npm install
+  npm run dev
+
+An you may see the following:
+
+  VITE v3.0.0  ready in 1231 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+  ➜  Network: use --host to expose
+
+Just vist the URL and open the browser to view the initial page.
+In the console windows, press CTRL-C twice to stop the running.
+
+Attention:
+已经配置了如下命令
+{
+  "scripts": {
+    "dev": "vite", // start dev server, aliases: `vite dev`, `vite serve`
+    "build": "vite build", // build for production
+    "preview": "vite preview" // locally preview production build
+  }
+}
+
+You can specify additional CLI options like --port or --https. For a full list of CLI options, run npx vite --help in your project.
+
+
+
+2022.07.15
+
+Add Element-Plus support and layout example.
+https://github.com/element-plus/element-plus
+
+W3School教程：Element-Plus vue3
+https://www.w3cschool.cn/vue_elementplus/ElementPlusinstallation.html
+
+$ npm install element-plus --save
+$ yarn add element-plus
+
+
+
+https://element-plus.gitee.io/zh-CN/component/layout.html
+
+Refer to the layout here:
+https://www.w3cschool.cn/vue_elementplus/ElementPlus_Container.html
+
+Just copy the example code  in to index.html
+
+
+History
+==============================
+author zhangwei on 2022.07.17
